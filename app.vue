@@ -1,5 +1,18 @@
 <template>
-  <div>
-    <NuxtWelcome />
-  </div>
+	<NuxtLayout>
+		<NuxtPage />
+	</NuxtLayout>
 </template>
+
+<style>
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: "Catamaran", sans-serif;
+	font-size: 62.5%;
+}
+</style>
