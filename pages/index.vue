@@ -1,28 +1,59 @@
 <template>
 	<Nav :selected="1">
-		<h1>A Brighter Future For All</h1>
-		<p>
-			Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo
-			suscipit ex debitis, modi dolorum, alias voluptates deleniti
-			voluptate ullam sed voluptatem assumenda. Similique, corrupti nulla!
+		<h1 class="title">Himmelblå Børnehave</h1>
+		<p class="description">
+			Velkommen til Himmelblå Børnehave! <br />
+			Vi skaber et kærligt og inkluderende miljø, hvor leg, læring og
+			fantasi blomstrer.
 		</p>
 
-		<Button type="link" href="#" styles="primary">Test Button</Button>
+		<Button type="link" href="/kontakt" styles="primary">Kontakt os</Button>
 	</Nav>
+
+	<section id="calendar">
+		<CalendarCard
+			day="10"
+			month="December"
+			title="Tur i sandkassen"
+			description="Tag dine børn en tur sandkassen (og måske efterlad dem)"
+			time="12:00 - 16:00"
+		/>
+		<CalendarCard
+			day="10"
+			month="December"
+			title="Tur i sandkassen"
+			description="Tag dine børn en tur sandkassen (og måske efterlad dem)"
+			time="12:00 - 16:00"
+		/>
+		<CalendarCard
+			day="10"
+			month="December"
+			title="Tur i sandkassen"
+			description="Tag dine børn en tur sandkassen (og måske efterlad dem)"
+			time="12:00 - 16:00"
+		/>
+		<CalendarCard
+			day="10"
+			month="December"
+			title="Tur i sandkassen"
+			description="Tag dine børn en tur sandkassen (og måske efterlad dem)"
+			time="12:00 - 16:00"
+		/>
+	</section>
 
 	<Footer></Footer>
 </template>
 
 <style scoped>
-h1 {
-	font-size: 10rem;
-	color: #000b79;
-	line-height: 12rem;
-}
-p {
-	font-size: 2rem;
-	color: #000b79;
-	line-height: 1.7rem;
+#calendar {
+	padding: 70px 0;
+
+	max-width: 1180px;
+	margin: 0 auto;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
 }
 </style>
 

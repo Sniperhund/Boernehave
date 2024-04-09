@@ -19,14 +19,20 @@ button {
 	color: #fff;
 	display: inline-block;
 	border-radius: 43.5px;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: 500;
 }
 
 .primary {
 	background-color: #8d2eff;
-	border: 2px solid #6829b3;
+	border: 8px solid #6829b3;
 }
 
 .secondary {
 	background: linear-gradient(to right, #ffcc33, #ffb347);
+	padding: 16px 60px;
+	border: 6px solid #ffb347;
+	color: #151965;
 }
 </style>
